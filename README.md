@@ -16,4 +16,13 @@ console.log("C is fun");
 console.log("Python is cool");
 console.log("JavaScript is amazing");
 
+## Task 4 - Create a sentence
+
+This script prints two arguments in the format: `"arg1 is arg2"`
+
+```javascript
+const arg1 = process.argv[2];
+const arg2 = process.argv[3];
+
+console.log(`${arg1} is ${arg2}`);
 
